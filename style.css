@@ -1,0 +1,176 @@
+.button-1 {
+    padding:10px;
+    background-color:lightblue;
+    border-radius:7px;
+    color:#f3f3f3;
+    border:lightblue;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    border:1px solid black;
+    width:75%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.button-2 {
+    padding:10px;
+    background-color:red;
+    border-radius:7px;
+    color:#f3f3f3;
+    border:red;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display:flex;
+    border:1px solid black;
+    padding:10px;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background:url('images/green.jpg') center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#f3f3f3;
+
+}
+
+img {
+    width:75px;
+    padding:10px;
+    flex-wrap:wrap;
+}
+
+.flex-blackjack-row-1 div {
+    border:1px solid black;
+    padding:10px;
+    flex:1;
+    flex-wrap:wrap;
+    text-align:center;
+    height:350px;
+}
+
+.flex-box-row-1 img {
+    width:25%;
+}
+
+.flex-blackjack-row-2 button {
+    border:1px solid black;
+    padding:10px;
+    height:45px;
+}
+
+.flex-blackjack-row-2 div {
+    border:1px solid black;
+    padding:5px;
+}
+
+table, td, th {
+    border:1px solid black;
+    padding:3px;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+.flex-box-container-1 div {
+    display:flex;
+    padding:10px;
+    border:1px solid black;
+}
+
+
+.flex-box-container-2 img{
+    width:150px;
+    box-shadow:2px 2px 8px black;
+    margin:5px 20px 20px;
+}
+
+.flex-box-container-2 {
+    padding:50px;
+    
+}
+
+.flex-box-rps img:hover{
+    box-shadow:2px 2px 8px blue;
+}
+
+.btn-primary {
+    padding:15px;
+    background-color:rgba(104, 74, 240, 0.685);
+    border-radius:7px;
+    color:#f3f3f3;
+    border:rgba(104, 74, 240, 0.685);
+} 
+
+.btn-danger {
+    padding:15px;
+    background-color:rgba(228, 70, 50, 0.897);
+    border-radius:7px;
+    color:#f3f3f3;
+    border:rgba(228, 70, 50, 0.897);
+}
+
+.btn-warning {
+    padding:15px;
+    background-color:orange;
+    border-radius:7px;
+    color:#f3f3f3;
+    border:orange;
+}
+
+.btn-success {
+    padding:10px;
+    background-color:rgb(30, 221, 30);
+    border-radius:7px;
+    color:#f3f3f3;
+    border:rgb(30, 221, 30);;
+}
+
+form select {
+    margin-bottom: 10px;
+}
+
+@media (min-width:400px) {
+    button, select, h2, table {
+        font-size: 70px;
+    }
+    .container-1,
+    .container-2,
+    .container-3,
+    .container-4,
+    .container-5 {
+        width: 100%;
+    }
+
+    #flex-cat-gen img {
+        width: 100%;
+    }
+
+    #rock, #paper, #scissors {
+        width: 30%;
+    }
+
+    #your-box img {
+        width: 20%;
+    }
+
+   #background option {
+        font-size: 18px;
+    }
+
+    #blackjack-hit-button,
+    #blackjack-stand-button,
+    #blackjack-deal-button {
+        height: 100px;
+    }
+}
